@@ -9,7 +9,7 @@ public class TestController {
 	@RequestMapping("test")
 	public String test(Model m) {			//跳转页面
 		m.addAttribute("a", "test");
-		return "test";
+		return "test";		//B第一次修改文件
 		// a修改了文件
 	}
 }
